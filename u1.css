@@ -1,0 +1,67 @@
+.flex{
+    display: flex;
+}
+
+.border-red{
+    border: 2px solid black;
+}
+
+.bg-gray{
+    background-color:#121212;
+    color: white;
+    
+}
+
+.invert{
+    filter: invert();
+}
+
+.bg-black{
+    color: white;
+    background-color: black;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+.margin-1{
+    margin: 4px;
+}
+
+.padding-1{
+    padding: 16px;
+}
+
+/*  scrool bar making dark */
+
+/* For WebKit browsers (Chrome, Safari, etc.) */
+/* You can also use different pseudo-elements for Firefox and other browsers */
+
+/* Track */
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Set the color of the scrollbar handle */
+    border-radius: 6px; /* Set the border-radius to round the corners */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Set a different color on hover */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #222; /* Set the color of the scrollbar track */
+    border-radius: 10px; /* Set the border-radius to round the corners */
+  }
+  
+  /* Handle when scrolling */
+  ::-webkit-scrollbar-thumb:active {
+    background-color: #666; /* Set a different color when scrolling */
+  }
+  

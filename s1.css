@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding : 0px;
+}
+
+
+
+.left{
+    display: block;
+    width: 24vw;       
+     
+}
+
+.right{
+    width: 76vw;    
+    margin-left: 5px;
+    max-height: 100vh;  
+    position: relative;
+   
+}
+
+
+
+.home ul li{
+    
+    list-style: none;
+    width: 25px;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    
+} 
+
+.library{
+    min-height: 63vh;
+}
+
+.libraryimg{
+    
+    align-self: flex-start;
+    width: 25px;
+    
+    
+}
+.heading{
+    width: 25px;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+.heading h2{
+
+    font-size: 16px;
+    padding-top: 3px;
+    
+}
+
+.nav{
+    border: 2px solid black;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.leftarrow{
+    width: 20px;
+    padding: 15px;
+    align-self: center;
+
+}
+.rightarrow{
+    width: 20px;
+    padding: 15px;
+    align-self: center;
+
+}
+
+.buttons{
+    align-self: center;
+    padding: 10px;
+}
+
+.spotifyPlaylist  .spot{
+    padding:10px;
+}
+
+.spotifyPlaylist .card{
+    padding: 10px;
+    border: 5px solid #252525;
+    width: 200px;
+    background-color: #252525;
+    margin-left:10px;
+     
+   
+}
+
+
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.card * {
+    /* .card me sare immediate elemetns will have padding top as 10 px */
+    padding-top: 3px; 
+    
+    
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 70vh;
+    overflow-y: scroll; 
+    overflow-x: hidden;  
+
+}
+.card{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.play{
+    position: absolute;
+    top: 168px;
+    right:-70px;
+    width: 24px;
+    height: 29px;
+}
+
+/* write code for login and sign in button */
+
+
+.controlpanel{
+    border: 2px solid black;
+    background-color: #1d2626;
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    padding: 12px;
+    margin: 5px;
+}
+
+.playbuttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.backward , .pl , .forward{
+    filter: invert();
+}
+
+
+
+.songlist{
+    padding:16px ;
+    
+
+}
+
+.songlist ol li{
+
+    list-style: none;
+    padding: 5px;
+    
+    
+    
+}
+
+.songcard{
+    justify-content: space-between;   
+    border: 2px solid white;
+    padding: 10px;
+    margin-bottom: 5px; 
+    cursor: pointer;
+}
+
+.songname img{
+    width: 18px;
+    height: 18px;
+   align-self: center;
+    filter: invert();
+}
+.songname h2{
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 5px;
+    align-self: center;
+}
+
+.playsong h3{
+    font-size:12px;
+    font-weight: normal;
+    padding-left: 10px;
+    align-self: center;
+}
+
+.playsong img{
+    filter: invert();
+    width: 18px;
+    height: 18px;
+    font-weight: bolder;
+   align-self: center;
+}
+
